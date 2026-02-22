@@ -2,6 +2,7 @@
 
 An intelligent threat detection and emergency response system built with React that provides real-time voice monitoring, automatic emergency alerts, and location tracking.
 
+video recording - https://drive.google.com/file/d/1Y0beQuXf1OX4ZZbhGZjRpcLmrbJNes72/view?usp=drivesdk
 ## Features
 
 ### 🎯 Real-time Threat Detection
