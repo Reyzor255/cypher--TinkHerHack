@@ -1,19 +1,18 @@
-<p align="center">
-  <img src="./img.png" alt="CYPHER Banner" width="100%">
-</p>
+
 
 # CYPHER - Advanced Safety Monitoring System 🎯
+<img width="957" height="507" alt="Screenshot 2026-02-22 094845" src="https://github.com/user-attachments/assets/75ad9fcf-59e0-4e09-831a-01511a21cd32" />
 
 ## Basic Details
 
-### Team Name: [Your Team Name]
+### Team Name:Athena
 
 ### Team Members
-- Member 1: [Name] - [College]
-- Member 2: [Name] - [College]
+- Member 1: Reyhan Hazeem - Toc H institute of Techonolgy 
+- Member 2: Santra Alexander - Toc H institute of Technology
 
 ### Hosted Project Link
-[Your hosted link here]
+https://cypher-eight-nu.vercel.app/
 
 ### Project Description
 CYPHER is an intelligent threat detection and emergency response system that provides real-time voice monitoring, automatic emergency alerts via WhatsApp, and GPS location tracking to ensure personal safety in critical situations.
@@ -38,13 +37,9 @@ CYPHER uses continuous voice monitoring with Web Speech API to detect customizab
 
 ---
 
-video recording - https://drive.google.com/file/d/1Y0beQuXf1OX4ZZbhGZjRpcLmrbJNes72/view?usp=drivesdk
-## Features
-<img width="1629" height="917" alt="Screenshot 2026-02-22 103312" src="https://github.com/user-attachments/assets/459b7eff-c0fe-4d5b-8413-5c2d9def6738" />
-<img width="1464" height="881" alt="Screenshot 2026-02-22 103322" src="https://github.com/user-attachments/assets/71041683-8aa9-4908-aaf3-ccd7b8049e3c" />
-<img width="1357" height="927" alt="Screenshot 2026-02-22 103420" src="https://github.com/user-attachments/assets/f1212c59-5e9b-463e-99d9-575cd22d24fa" />
 
-<img width="1880" height="916" alt="Screenshot 2026-02-22 103428" src="https://github.com/user-attachments/assets/9128a2bb-1ebd-4104-9c04-8ef061ead965" />
+## Features
+
 
 - **Real-time Voice Monitoring**: Continuous listening mode using Web Speech API for instant threat detection
 - **Automatic Emergency Response**: Sends WhatsApp alerts to multiple contacts with location when threat detected
@@ -80,15 +75,12 @@ The app will open at `http://localhost:3000`
 ### For Software:
 
 #### Screenshots
+<img width="1629" height="917" alt="Screenshot 2026-02-22 103312" src="https://github.com/user-attachments/assets/b70e0bdc-51f4-414e-a886-14385682ae3c" />
 
-![Main Dashboard](screenshots/dashboard.png)
-*CYPHER main monitoring interface with safety mode controls and emergency contact configuration*
+<img width="1464" height="881" alt="Screenshot 2026-02-22 103322" src="https://github.com/user-attachments/assets/109d7045-9d70-4394-8785-ac2b457dd7ed" />
 
-![Recording Page](screenshots/recording.png)
-*Emergency recording interface showing active recording, location sharing, and evidence log*
-
-![Map View](screenshots/map.png)
-*Interactive map displaying incident location with coordinates and Google Maps integration*
+<img width="1357" height="927" alt="Screenshot 2026-02-22 103420" src="https://github.com/user-attachments/assets/8ad704a2-f9b8-4b94-a47f-a79d1794651a" />
+<img width="1880" height="916" alt="Screenshot 2026-02-22 103428" src="https://github.com/user-attachments/assets/b20701f5-83bb-4412-b7c2-1fd702a23d0e" />
 
 #### Diagrams
 
@@ -160,15 +152,12 @@ Open Recording Page
 ## Project Demo
 
 ### Video
-[Add your demo video link here]
+video recording - https://drive.google.com/file/d/1Y0beQuXf1OX4ZZbhGZjRpcLmrbJNes72/view?usp=drivesdk
 
 *Demo showcases: Voice detection triggering emergency response, automatic WhatsApp alerts with location, audio recording, and interactive map visualization*
 
-### Additional Demos
-- Live Demo: [Your hosted link]
-- APK Download: [If applicable]
 
----
+
 
 ## Browser Compatibility & Requirements
 
@@ -196,34 +185,34 @@ Open Recording Page
 
 ## Team Contributions
 
-- [Name 1]: Frontend development, Speech recognition integration, UI/UX design
-- [Name 2]: Location tracking, Map integration, WhatsApp alert system, IndexedDB implementation
+- Santra Alexander: Frontend development, Speech recognition integration, UI/UX design
+- Reyhan Hazeem: Location tracking, Map integration, WhatsApp alert system, IndexedDB implementation
 
 ---
 
 ## AI Tools Used (Optional - For Transparency Bonus)
 
-**Tool Used:** [If applicable - e.g., GitHub Copilot, ChatGPT]
+**Tool Used:** chatgpt, gemini, amazon q
 
 **Purpose:**
 - Code optimization and debugging assistance
 - Component structure suggestions
 - CSS styling improvements
 
-**Percentage of AI-generated code:** Approximately 15%
+
 
 **Human Contributions:**
 - Complete architecture design and planning
 - Core business logic (speech recognition, location tracking, alert system)
 - Integration of all components
-- UI/UX design and implementation
+
 - Testing and debugging
 
 ---
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License - 
 
 ---
 
