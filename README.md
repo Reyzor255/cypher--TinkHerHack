@@ -4,6 +4,11 @@ An intelligent threat detection and emergency response system built with React t
 
 video recording - https://drive.google.com/file/d/1Y0beQuXf1OX4ZZbhGZjRpcLmrbJNes72/view?usp=drivesdk
 ## Features
+<img width="1629" height="917" alt="Screenshot 2026-02-22 103312" src="https://github.com/user-attachments/assets/459b7eff-c0fe-4d5b-8413-5c2d9def6738" />
+<img width="1464" height="881" alt="Screenshot 2026-02-22 103322" src="https://github.com/user-attachments/assets/71041683-8aa9-4908-aaf3-ccd7b8049e3c" />
+<img width="1357" height="927" alt="Screenshot 2026-02-22 103420" src="https://github.com/user-attachments/assets/f1212c59-5e9b-463e-99d9-575cd22d24fa" />
+
+<img width="1880" height="916" alt="Screenshot 2026-02-22 103428" src="https://github.com/user-attachments/assets/9128a2bb-1ebd-4104-9c04-8ef061ead965" />
 
 ### 🎯 Real-time Threat Detection
 - Voice-activated keyword monitoring using Web Speech API
