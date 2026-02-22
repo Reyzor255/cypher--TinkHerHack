@@ -1,6 +1,42 @@
-# CYPHER - Advanced Safety Monitoring System
+<p align="center">
+  <img src="./img.png" alt="CYPHER Banner" width="100%">
+</p>
 
-An intelligent threat detection and emergency response system built with React that provides real-time voice monitoring, automatic emergency alerts, and location tracking.
+# CYPHER - Advanced Safety Monitoring System 🎯
+
+## Basic Details
+
+### Team Name: [Your Team Name]
+
+### Team Members
+- Member 1: [Name] - [College]
+- Member 2: [Name] - [College]
+
+### Hosted Project Link
+[Your hosted link here]
+
+### Project Description
+CYPHER is an intelligent threat detection and emergency response system that provides real-time voice monitoring, automatic emergency alerts via WhatsApp, and GPS location tracking to ensure personal safety in critical situations.
+
+### The Problem Statement
+In emergency situations, victims often cannot make phone calls or send messages for help. Traditional safety apps require manual activation, which may not be possible when under threat. There's a critical need for an automated system that can detect danger and alert emergency contacts without user intervention.
+
+### The Solution
+CYPHER uses continuous voice monitoring with Web Speech API to detect customizable trigger keywords. When a threat is detected, it automatically records audio evidence, captures GPS location, and sends WhatsApp alerts with location links to pre-configured emergency contacts - all without requiring any manual action from the user.
+
+---
+
+## Technical Details
+
+### Technologies/Components Used
+
+**For Software:**
+- Languages used: JavaScript (ES6+), HTML5, CSS3
+- Frameworks used: React 18.2.0
+- Libraries used: Leaflet.js (Maps), Web Speech API, IndexedDB
+- Tools used: React Scripts 5.0.1, npm, Git
+
+---
 
 video recording - https://drive.google.com/file/d/1Y0beQuXf1OX4ZZbhGZjRpcLmrbJNes72/view?usp=drivesdk
 ## Features
@@ -10,105 +46,143 @@ video recording - https://drive.google.com/file/d/1Y0beQuXf1OX4ZZbhGZjRpcLmrbJNe
 
 <img width="1880" height="916" alt="Screenshot 2026-02-22 103428" src="https://github.com/user-attachments/assets/9128a2bb-1ebd-4104-9c04-8ef061ead965" />
 
-### 🎯 Real-time Threat Detection
-- Voice-activated keyword monitoring using Web Speech API
-- Continuous listening mode for instant threat detection
-- Customizable trigger keywords
+- **Real-time Voice Monitoring**: Continuous listening mode using Web Speech API for instant threat detection
+- **Automatic Emergency Response**: Sends WhatsApp alerts to multiple contacts with location when threat detected
+- **GPS Location Tracking**: Real-time location capture with interactive Leaflet maps and Google Maps integration
+- **Audio Evidence Recording**: Automatic recording with IndexedDB storage for incident documentation
+- **Multi-Contact Alert System**: Configure up to 3 emergency contacts for simultaneous alerts
+- **Interactive Map Visualization**: View incident locations with coordinates and map links
 
-### 🚨 Emergency Response
-- Automatic emergency contact alerts via WhatsApp
-- Real-time location sharing with Google Maps integration
-- Automatic police dispatch notification simulation
-- Emergency audio recording with evidence logging
+---
 
-### 📍 Location Tracking
-- GPS-based location capture
-- Interactive map visualization using Leaflet
-- Google Maps integration for emergency sharing
-- Real-time coordinate tracking
+## Implementation
 
-### 📱 WhatsApp Integration
-- Automatic emergency alerts to configured contacts
-- Location sharing with map links
-- One-click emergency broadcast
+### For Software:
 
-### 🎙️ Audio Recording
-- Automatic recording when threat is detected
-- Evidence storage using IndexedDB
-- Playback and management of recorded incidents
-- Persistent storage across sessions
-
-## Tech Stack
-
-- **Frontend**: React 18.2.0
-- **Speech Recognition**: Web Speech API
-- **Maps**: Leaflet.js & Google Maps
-- **Storage**: IndexedDB
-- **Styling**: Custom CSS with modern UI/UX
-- **Build Tool**: React Scripts 5.0.1
-
-## Installation
-
-1. Clone the repository:
+#### Installation
 ```bash
 git clone https://github.com/Reyzor255/cypher--TinkHerHack.git
 cd cypher--TinkHerHack
-```
-
-2. Install dependencies:
-```bash
 npm install
 ```
 
-3. Start the development server:
+#### Run
 ```bash
 npm start
 ```
 
-The app will open at `http://localhost:3000` (or another port if 3000 is in use).
+The app will open at `http://localhost:3000`
 
-## Usage
+---
 
-### Setting Up Safety Mode
+## Project Documentation
 
-1. **Configure Trigger Keyword**: Enter a keyword that will activate the emergency response
-2. **Add Emergency Contacts**: Input up to 3 emergency contact phone numbers
-3. **Enable Safety Mode**: Click "Enable Safety Mode" to start monitoring
+### For Software:
 
-### When Threat is Detected
+#### Screenshots
 
-The system automatically:
-- Starts recording audio evidence
-- Captures your GPS location
-- Sends WhatsApp alerts to all emergency contacts
-- Displays emergency response confirmation
-- Opens the Recording Page with incident details
+![Main Dashboard](screenshots/dashboard.png)
+*CYPHER main monitoring interface with safety mode controls and emergency contact configuration*
 
-### Recording Page
+![Recording Page](screenshots/recording.png)
+*Emergency recording interface showing active recording, location sharing, and evidence log*
 
-- View real-time recording status
-- Access location on interactive map
-- Share location via WhatsApp
-- Review and manage recorded evidence
-- Play back or delete recordings
+![Map View](screenshots/map.png)
+*Interactive map displaying incident location with coordinates and Google Maps integration*
 
-### Map Page
+#### Diagrams
 
-- View incident location on interactive map
-- See exact coordinates
-- Open location in Google Maps
-- Review threat detection details
+**System Architecture:**
 
-## Browser Compatibility
+```
+┌─────────────────────────────────────────────────────────┐
+│                    CYPHER System                         │
+├─────────────────────────────────────────────────────────┤
+│                                                          │
+│  ┌──────────────┐      ┌──────────────┐                │
+│  │ Web Speech   │─────▶│   Keyword    │                │
+│  │     API      │      │   Detection  │                │
+│  └──────────────┘      └──────┬───────┘                │
+│                               │                          │
+│                               ▼                          │
+│                    ┌──────────────────┐                 │
+│                    │  Threat Detected │                 │
+│                    └────────┬─────────┘                 │
+│                             │                            │
+│          ┌──────────────────┼──────────────────┐        │
+│          ▼                  ▼                  ▼         │
+│  ┌──────────────┐  ┌──────────────┐  ┌──────────────┐ │
+│  │   Audio      │  │  GPS/Maps    │  │  WhatsApp    │ │
+│  │  Recording   │  │   Location   │  │   Alerts     │ │
+│  │  (IndexedDB) │  │  (Leaflet)   │  │  (wa.me)     │ │
+│  └──────────────┘  └──────────────┘  └──────────────┘ │
+│                                                          │
+└─────────────────────────────────────────────────────────┘
+```
 
-- Chrome/Edge (recommended)
+**Application Workflow:**
+
+```
+User Opens App
+      │
+      ▼
+Configure Keyword & Contacts
+      │
+      ▼
+Enable Safety Mode
+      │
+      ▼
+Continuous Voice Monitoring ◄─────┐
+      │                            │
+      ▼                            │
+Keyword Detected? ─── NO ─────────┘
+      │
+     YES
+      │
+      ├─────▶ Start Audio Recording
+      │
+      ├─────▶ Capture GPS Location
+      │
+      ├─────▶ Send WhatsApp Alerts
+      │
+      ▼
+Open Recording Page
+      │
+      ├─────▶ View/Manage Recordings
+      │
+      ├─────▶ View Location on Map
+      │
+      └─────▶ Share Location
+```
+
+---
+
+## Project Demo
+
+### Video
+[Add your demo video link here]
+
+*Demo showcases: Voice detection triggering emergency response, automatic WhatsApp alerts with location, audio recording, and interactive map visualization*
+
+### Additional Demos
+- Live Demo: [Your hosted link]
+- APK Download: [If applicable]
+
+---
+
+## Browser Compatibility & Requirements
+
+**Supported Browsers:**
+- Chrome/Edge (Recommended)
 - Firefox
-- Safari (limited Web Speech API support)
+- Safari (Limited Web Speech API support)
 
-**Requirements**:
-- Microphone access permission
-- Location services enabled
-- Internet connection for maps and WhatsApp
+**Required Permissions:**
+- Microphone access
+- Location services
+- Internet connection (for maps and WhatsApp)
+
+---
 
 ## Privacy & Security
 
@@ -116,43 +190,49 @@ The system automatically:
 - No data sent to external servers
 - Location shared only when threat detected
 - User controls all emergency contacts
+- No backend server or database required
 
-## Build for Production
+---
 
-```bash
-npm run build
-```
+## Team Contributions
 
-Creates optimized production build in the `build/` folder.
+- [Name 1]: Frontend development, Speech recognition integration, UI/UX design
+- [Name 2]: Location tracking, Map integration, WhatsApp alert system, IndexedDB implementation
 
-## Project Structure
+---
 
-```
-confirmedcypher/
-├── public/
-│   └── index.html
-├── src/
-│   ├── App.js              # Main app component
-│   ├── SafetyMonitor.js    # Main monitoring interface
-│   ├── RecordingPage.js    # Emergency recording interface
-│   ├── MapPage.js          # Location map display
-│   └── *.css               # Component styles
-├── package.json
-└── README.md
-```
+## AI Tools Used (Optional - For Transparency Bonus)
 
-## Contributing
+**Tool Used:** [If applicable - e.g., GitHub Copilot, ChatGPT]
 
-Contributions are welcome! Please feel free to submit a Pull Request.
+**Purpose:**
+- Code optimization and debugging assistance
+- Component structure suggestions
+- CSS styling improvements
+
+**Percentage of AI-generated code:** Approximately 15%
+
+**Human Contributions:**
+- Complete architecture design and planning
+- Core business logic (speech recognition, location tracking, alert system)
+- Integration of all components
+- UI/UX design and implementation
+- Testing and debugging
+
+---
 
 ## License
 
-This project is open source and available under the MIT License.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+---
 
 ## Acknowledgments
 
 Built for TinkHerHack - Empowering safety through technology.
 
+**⚠️ Important Disclaimer:** This is a safety tool designed to assist in emergencies. Always contact local emergency services (911, 112, etc.) in real emergencies. This app should be used as a supplementary safety measure, not a replacement for professional emergency services.
+
 ---
 
-**⚠️ Important**: This is a safety tool. Always contact local emergency services (911, 112, etc.) in real emergencies.
+Made with ❤️ at TinkerHub
