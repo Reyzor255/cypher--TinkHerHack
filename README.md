@@ -1,7 +1,8 @@
 
 
 # CYPHER - Advanced Safety Monitoring System 🎯
-<img width="957" height="507" alt="Screenshot 2026-02-22 094845" src="https://github.com/user-attachments/assets/75ad9fcf-59e0-4e09-831a-01511a21cd32" />
+<img width="1280" height="640" alt="img" src="https://github.com/user-attachments/assets/51755682-17a7-4611-851b-619c27b8de26" />
+
 
 ## Basic Details
 
